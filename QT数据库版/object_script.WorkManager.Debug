@@ -1,0 +1,10 @@
+debug/main.o
+debug/mainwindow.o
+debug/hello.o
+debug/perstl.o
+debug/add.o
+debug/qrc_res.o
+debug/moc_mainwindow.o
+debug/moc_hello.o
+debug/moc_perstl.o
+debug/moc_add.o

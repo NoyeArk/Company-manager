@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Add</class>
+ <widget class="QWidget" name="Add">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>399</width>
+    <height>366</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="res.qrc">
+    <normaloff>:/new/prefix1/任务栏图标.png</normaloff>:/new/prefix1/任务栏图标.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(254, 244, 169);</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_3">
+   <item row="1" column="0">
+    <widget class="QWidget" name="widget" native="true">
+     <layout class="QGridLayout" name="gridLayout">
+      <item row="0" column="0">
+       <spacer name="horizontalSpacer">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item row="0" column="4">
+       <spacer name="horizontalSpacer_2">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item row="0" column="1">
+       <widget class="QPushButton" name="btn_save">
+        <property name="minimumSize">
+         <size>
+          <width>76</width>
+          <height>42</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{font: 11pt '微软雅黑 Light';color: rgb(0,0,0);background-color: rgba(46,148,185,1)}
+QPushButton{border: none;border-radius:15px;}
+QPushButton:hover{background-color: rgb(22,218,208);}
+QPushButton:pressed{background-color: rgb(17,171,164);}</string>
+        </property>
+        <property name="text">
+         <string>保存</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="3">
+       <widget class="QPushButton" name="exit">
+        <property name="minimumSize">
+         <size>
+          <width>76</width>
+          <height>42</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{font: 11pt '微软雅黑 Light';color: rgb(0,0,0);background-color:rgba(46,148,185,1)}
+QPushButton{border: none;border-radius:15px;}
+QPushButton:hover{background-color: rgb(22,218,208);}
+QPushButton:pressed{background-color: rgb(17,171,164);}</string>
+        </property>
+        <property name="text">
+         <string>返回</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="2">
+       <spacer name="horizontalSpacer_3">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item row="0" column="0">
+    <widget class="QWidget" name="widget_2" native="true">
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>265</height>
+      </size>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_2">
+      <item row="0" column="1">
+       <widget class="QLabel" name="label">
+        <property name="styleSheet">
+         <string notr="true">QLabel{
+	background:rgba(85,170,225,0);
+	color:black;
+	font-style: italic bold;
+	font: 14pt &quot;黑体&quot;;
+}
+</string>
+        </property>
+        <property name="text">
+         <string>编号：</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="5" column="2">
+       <widget class="QSpinBox" name="sb_day">
+        <property name="styleSheet">
+         <string notr="true">color: rgb(0, 0, 0);
+background-color: white;
+font: 14pt &quot;3ds&quot;;</string>
+        </property>
+        <property name="maximum">
+         <number>31</number>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="2">
+       <widget class="QComboBox" name="cb_job">
+        <property name="styleSheet">
+         <string notr="true">color: rgb(0, 0, 0);
+
+font: 14pt &quot;3ds&quot;;</string>
+        </property>
+        <item>
+         <property name="text">
+          <string>经理</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>销售经理</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>技术人员</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>销售人员</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item row="2" column="1">
+       <widget class="QLabel" name="label_3">
+        <property name="styleSheet">
+         <string notr="true">QLabel{
+	background:rgba(85,170,225,0);
+	color:black;
+	font-style: italic bold;
+	font: 14pt &quot;黑体&quot;;
+}
+</string>
+        </property>
+        <property name="text">
+         <string>性别：</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="1">
+       <widget class="QLabel" name="label_5">
+        <property name="layoutDirection">
+         <enum>Qt::LeftToRight</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QLabel{
+	background:rgba(85,170,225,0);
+	color:black;
+	font-style: italic bold;
+	font: 14pt &quot;黑体&quot;;
+}
+</string>
+        </property>
+        <property name="text">
+         <string>等级：</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="2" colspan="2">
+       <widget class="QLineEdit" name="le_id">
+        <property name="styleSheet">
+         <string notr="true">color: black;
+background-color: white;
+font: 14pt &quot;3ds&quot;;</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="1">
+       <widget class="QLabel" name="label_4">
+        <property name="styleSheet">
+         <string notr="true">QLabel{
+	background:rgba(85,170,225,0);
+	color:black;
+	font-style: italic bold;
+	font: 14pt &quot;黑体&quot;;
+}
+</string>
+        </property>
+        <property name="text">
+         <string>职位：</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="2">
+       <widget class="QComboBox" name="cb_grade">
+        <property name="styleSheet">
+         <string notr="true">color: rgb(0, 0, 0);
+
+font: 14pt &quot;3ds&quot;;</string>
+        </property>
+        <item>
+         <property name="text">
+          <string>高级</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>中级</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>初级</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QLabel" name="label_2">
+        <property name="styleSheet">
+         <string notr="true">QLabel{
+	background:rgba(85,170,225,0);
+	color:black;
+	font-style: italic bold;
+	font: 14pt &quot;黑体&quot;;
+}
+</string>
+        </property>
+        <property name="text">
+         <string>姓名：</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="5" column="1">
+       <widget class="QLabel" name="label_6">
+        <property name="styleSheet">
+         <string notr="true">QLabel{
+	background:rgba(85,170,225,0);
+	color:black;
+	font-style: italic bold;
+	font: 14pt &quot;黑体&quot;;
+}
+</string>
+        </property>
+        <property name="text">
+         <string>出勤天数：</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="2">
+       <widget class="QComboBox" name="cb_sex">
+        <property name="styleSheet">
+         <string notr="true">color: rgb(0, 0, 0);
+
+font: 14pt &quot;3ds&quot;;</string>
+        </property>
+        <item>
+         <property name="text">
+          <string>男</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>女</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item row="1" column="2" colspan="2">
+       <widget class="QLineEdit" name="le_name">
+        <property name="minimumSize">
+         <size>
+          <width>21</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: black;
+background-color: white;
+font: 14pt &quot;3ds&quot;;</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <spacer name="horizontalSpacer_4">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item row="3" column="4">
+       <spacer name="horizontalSpacer_5">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <tabstops>
+  <tabstop>le_id</tabstop>
+  <tabstop>le_name</tabstop>
+  <tabstop>cb_sex</tabstop>
+  <tabstop>cb_job</tabstop>
+  <tabstop>cb_grade</tabstop>
+  <tabstop>sb_day</tabstop>
+  <tabstop>btn_save</tabstop>
+  <tabstop>exit</tabstop>
+ </tabstops>
+ <resources>
+  <include location="res.qrc"/>
+ </resources>
+ <connections/>
+</ui>

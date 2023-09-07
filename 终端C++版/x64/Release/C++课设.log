@@ -1,0 +1,14 @@
+﻿D:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(534,5): warning MSB8028: 中间目录(x64\Release\)包含从另一个项目(C++课设.vcxproj)共享的文件。   这会导致错误的清除和重新生成行为。
+  heart.cpp
+D:\Code\ACM\C++课设\heart.cpp(16,20): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\Code\ACM\C++课设\heart.cpp(32,6): warning C4101: “a”: 未引用的局部变量
+D:\Code\ACM\C++课设\heart.cpp(31,12): warning C4101: “e”: 未引用的局部变量
+D:\Code\ACM\C++课设\heart.cpp(31,9): warning C4101: “j”: 未引用的局部变量
+D:\Code\ACM\C++课设\heart.cpp(31,6): warning C4101: “i”: 未引用的局部变量
+  Manager.cpp
+D:\Code\ACM\C++课设\Manager.cpp(67,58): error C2664: “MCIERROR mciSendStringA(LPCSTR,LPSTR,UINT,HWND)”: 无法将参数 1 从“const wchar_t [26]”转换为“LPCSTR”
+D:\Code\ACM\C++课设\Manager.cpp(67,21): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+D:\Windows Kits\10\Include\10.0.19041.0\um\mciapi.h(78,1): message : 参见“mciSendStringA”的声明
+D:\Code\ACM\C++课设\Manager.cpp(68,50): error C2664: “MCIERROR mciSendStringA(LPCSTR,LPSTR,UINT,HWND)”: 无法将参数 1 从“const wchar_t [18]”转换为“LPCSTR”
+D:\Code\ACM\C++课设\Manager.cpp(68,21): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+D:\Windows Kits\10\Include\10.0.19041.0\um\mciapi.h(78,1): message : 参见“mciSendStringA”的声明

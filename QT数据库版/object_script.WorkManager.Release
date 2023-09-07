@@ -1,0 +1,10 @@
+release/main.o
+release/mainwindow.o
+release/hello.o
+release/perstl.o
+release/add.o
+release/qrc_res.o
+release/moc_mainwindow.o
+release/moc_hello.o
+release/moc_perstl.o
+release/moc_add.o
