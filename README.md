@@ -17,3 +17,9 @@
 
 ## 程序概述
 本项目设计两个版本，一个为C++终端黑框框版，一个是QT连接数据库版.
+
+## 效果展示
+![image](https://github.com/NoyeArk/company-manager/assets/112805800/e7860bed-6a67-4377-9171-845bd290efb9)
+![image](https://github.com/NoyeArk/company-manager/assets/112805800/b925c18b-315a-46fb-98dd-9bb942cb25a7)
+![image](https://github.com/NoyeArk/company-manager/assets/112805800/b4f47386-0f5e-4804-96f0-eff5809d363a)
+![image](https://github.com/NoyeArk/company-manager/assets/112805800/6093d2c2-2c85-47bf-ac2d-1f47cedcd826)
